@@ -7,7 +7,6 @@ function c(x){
 
 const eventDate = new Date("Feb 18, 2023 19:00:00");
 const eventTimeStamp = eventDate.getTime();
-c(eventTimeStamp);
 
 const interval = setInterval(function () {
     const now = new Date();
